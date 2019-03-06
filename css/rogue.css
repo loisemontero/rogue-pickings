@@ -1,0 +1,134 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+span {
+    color: #77a466;
+}
+/** Header Css **/
+header {
+    height: 40px;
+    margin-bottom: 30px;
+}
+header .full-width{
+   width: 1240px;
+}
+header .half-width{
+    width: 620px;
+    float: left;
+}
+header h1{
+    font-size: 30px;
+    padding-left: 21px;
+    line-height: 23px;
+}
+header nav{
+    
+    float: right;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header nav li{
+    display: inline-block;
+    padding-left: 20px;
+}
+header nav li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+}
+
+/** Picture CSS **/
+
+#picture {
+    background-image: url(../img/hero-Image.png);
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+    margin: auto;
+}
+
+/** About CSS **/
+
+main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+main h3 {
+    font-size: 18px;
+    line-height: 23px;
+}
+main p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/** Misc CSS **/
+
+
+#misc .full-section {
+    width: 1200px;
+    margin: auto;
+    height: 212px; 
+}
+#misc .third-width {
+    width: 398px;
+    float: left;
+    height: 212px;
+    
+}
+#menu h3, p {
+    padding-left: 2px;
+}
+#menu p {
+    color: #77a466;
+}
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 50px;
+    width: 310px;
+    height: 100px;
+}
+#reviews h3 {
+    padding-left: 50px;
+}
+#locations p {
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 30px;
+}
+#locations h3 {
+    padding-left: 30px;
+}
+
+/** Misc Border Declaration CSS **/
+
+#menu {
+    border-top: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+#reviews {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+#locations {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+}
+
+/** Footer CSS **/
+footer {
+    text-align: center;
+}
+#cursive {
+    font-family: 'Lobster', cursive;
+}
